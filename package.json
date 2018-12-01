@@ -1,0 +1,33 @@
+{
+  "name": "sms-router",
+  "version": "1.0.0",
+  "description": "A simple routing server for SMS clients.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "qrcode": "^1.3.2",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d bin",
+    "start": "babel src -d bin && node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpsheehan/sms-router.git"
+  },
+  "author": "JP Sheehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpsheehan/sms-router/issues"
+  },
+  "homepage": "https://github.com/jpsheehan/sms-router#readme"
+}
