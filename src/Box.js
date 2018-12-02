@@ -8,7 +8,12 @@ class Box {
 
     add(number, text) {
         const id = uuidv4();
-        const item = {id, number: formatPhoneNumber(number), text};
+        const item = {
+            id,
+            time: Date.now(),
+            number: formatPhoneNumber(number),
+            text
+        };
         this.items[id] = item;
         return item;
     }
