@@ -2,7 +2,7 @@
 
 *Written by JP Sheehan. Licensed under the GPLv3.*
 
-A proxy for SMS messages for the [SMS Router Proxy](https://github.com/jpsheehan/sms-router-proxy) and the [SMS Router Portal](https://github.com/jpsheehan/sms-router-portal) projects.
+A proxy for SMS messages for the [SMS Proxy Android](https://github.com/jpsheehan/sms-proxy-android) and the [SMS Router Portal](https://github.com/jpsheehan/sms-router-portal) projects.
 
 ## Downloading and installing dependencies
 
