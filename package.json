@@ -1,6 +1,7 @@
 {
   "name": "sms-router",
   "version": "1.0.0",
+  "license": "GPL-3.0-only",
   "description": "A simple routing server for SMS clients.",
   "main": "index.js",
   "dependencies": {
