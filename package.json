@@ -1,7 +1,7 @@
 {
   "name": "sms-router",
   "version": "1.0.0",
-  "license": "GPL-3.0-only",
+  "license": "ISC",
   "description": "A simple routing server for SMS clients.",
   "main": "index.js",
   "dependencies": {
@@ -24,7 +24,6 @@
     "url": "git+https://github.com/jpsheehan/sms-router.git"
   },
   "author": "JP Sheehan",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jpsheehan/sms-router/issues"
   },
